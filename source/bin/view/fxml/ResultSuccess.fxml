@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="788.0" prefWidth="1326.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="482.0" layoutY="367.0" prefHeight="133.0" prefWidth="470.0" text="PAY SUCCESS" textFill="#00ff37">
+         <font>
+            <Font size="69.0" />
+         </font>
+      </Label>
+      <Button fx:id="okButton" layoutX="640.0" layoutY="673.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="107.0" text="Confirm" />
+   </children>
+</AnchorPane>

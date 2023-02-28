@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="bikeImage" fitHeight="220.0" fitWidth="269.0" layoutX="16.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="14.0" layoutY="245.0" prefHeight="40.0" prefWidth="165.0" text="License plates:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lincensePlateLabel" layoutX="170.0" layoutY="245.0" prefHeight="40.0" prefWidth="127.0" style="-fx-background-color: white;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="285.0" prefHeight="40.0" prefWidth="71.0" text="Status:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="statusLabel" layoutX="170.0" layoutY="285.0" prefHeight="40.0" prefWidth="127.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="viewBtn" layoutX="76.0" layoutY="344.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="149.0" style="-fx-background-color: red;" text="View">
+      </Button>
+   </children>
+</AnchorPane>

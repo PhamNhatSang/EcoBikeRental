@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="788.0" prefWidth="1326.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="151.0" fitWidth="272.0" layoutX="376.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/images/Station%20Logo.PNG" />
+         </image>
+      </ImageView>
+      <Pane layoutX="31.0" layoutY="114.0" prefHeight="216.0" prefWidth="869.0" style="-fx-border-color: red;">
+         <children>
+            <ImageView fx:id="img_park1" fitHeight="194.0" fitWidth="200.0" layoutX="14.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="38.0" fitWidth="88.0" layoutX="250.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/images/name.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="49.0" fitWidth="88.0" layoutX="250.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/images/Address.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="88.0" layoutX="250.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/images/contact.PNG" />
+               </image>
+            </ImageView>
+            <Label fx:id="name1" layoutX="372.0" layoutY="32.0" prefHeight="38.0" prefWidth="250.0" textFill="#26ff00">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="address1" layoutX="372.0" layoutY="70.0" prefHeight="38.0" prefWidth="494.0" textFill="#26ff00">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="372.0" layoutY="114.0" prefHeight="38.0" prefWidth="138.0" text="0394839541" textFill="#26ff00">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="viewpark1" layoutX="250.0" layoutY="164.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="118.0" style="-fx-background-color: red;" text="View">
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="31.0" layoutY="349.0" prefHeight="194.0" prefWidth="869.0" style="-fx-border-color: red;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="45.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="img_park2" fitHeight="169.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="38.0" fitWidth="88.0" layoutX="245.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/images/name.PNG" />
+               </image>
+            </ImageView>
+            <Label fx:id="name2" layoutX="372.0" layoutY="14.0" prefHeight="38.0" prefWidth="250.0" textFill="#26ff00">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="49.0" fitWidth="88.0" layoutX="245.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/images/Address.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="88.0" layoutX="245.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/images/contact.PNG" />
+               </image>
+            </ImageView>
+            <Label fx:id="address2" layoutX="372.0" layoutY="55.0" prefHeight="38.0" prefWidth="494.0" textFill="#26ff00">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="372.0" layoutY="94.0" prefHeight="38.0" prefWidth="138.0" text="0394839541" textFill="#26ff00">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="viewpark2" layoutX="245.0" layoutY="132.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="118.0" style="-fx-background-color: red;" text="View">
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="31.0" layoutY="560.0" prefHeight="194.0" prefWidth="869.0" style="-fx-border-color: red;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="45.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="viewpark3" layoutX="245.0" layoutY="143.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="118.0" style="-fx-background-color: red;" text="View">
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fx:id="img_park3" fitHeight="169.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="38.0" fitWidth="88.0" layoutX="245.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/images/name.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="49.0" fitWidth="88.0" layoutX="245.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/images/Address.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="88.0" layoutX="245.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/images/contact.PNG" />
+               </image>
+            </ImageView>
+            <Label fx:id="name3" layoutX="373.0" layoutY="22.0" prefHeight="38.0" prefWidth="250.0" textFill="#26ff00">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="address3" layoutX="373.0" layoutY="62.0" prefHeight="38.0" prefWidth="494.0" textFill="#26ff00">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="373.0" layoutY="100.0" prefHeight="38.0" prefWidth="138.0" text="0394839541" textFill="#26ff00">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

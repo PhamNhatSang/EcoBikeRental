@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="788.0" prefWidth="1326.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="71.0" fitWidth="434.0" layoutX="446.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/images/Ecobikesystem.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bikeLogo" fitHeight="130.0" fitWidth="175.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/images/ecobikelogo.PNG" />
+         </image>
+      </ImageView>
+      <Pane layoutX="969.0" layoutY="133.0" prefHeight="594.0" prefWidth="346.0" style="-fx-border-color: green;">
+         <children>
+            <Button fx:id="rentBike" layoutX="80.0" layoutY="494.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="186.0" style="-fx-background-color: red;" text="Rent Bike" textFill="WHITE">
+            </Button>
+            <Button fx:id="returnBike" layoutX="80.0" layoutY="537.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="186.0" style="-fx-background-color: red;" text="Return Bike" textFill="WHITE">
+            </Button>
+            <Label fx:id="timeLabel" layoutX="80.0" layoutY="456.0" prefHeight="35.0" prefWidth="72.0">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="timeValueLabel" layoutX="154.0" layoutY="456.0" prefHeight="35.0" prefWidth="192.0">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <AnchorPane fx:id="bikeRentInfor" prefHeight="430.0" prefWidth="346.0" />
+         </children>
+      </Pane>
+      <ScrollPane layoutX="14.0" layoutY="133.0" prefHeight="436.0" prefWidth="939.0" style="-fx-background-color: white;">
+         <content>
+            <HBox fx:id="hboxBike" prefHeight="430.0" prefWidth="937.0" style="-fx-border-color: green; -fx-background-color: white;" />
+         </content>
+      </ScrollPane>
+      <Label layoutX="14.0" layoutY="585.0" prefHeight="43.0" prefWidth="265.0" text="Number of available bikes :">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="628.0" prefHeight="43.0" prefWidth="265.0" text="Number of docking point :">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="availableBike" layoutX="279.0" layoutY="585.0" prefHeight="43.0" prefWidth="92.0" textFill="#0015ff">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberOfDokcingPoints" layoutX="279.0" layoutY="628.0" prefHeight="43.0" prefWidth="92.0" textFill="#0015ff">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
